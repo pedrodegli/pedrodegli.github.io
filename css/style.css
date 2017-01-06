@@ -1,56 +1,145 @@
-header{
-	width: 800px;
-	height: 60px;
-	padding: 20px 0;
-	background: #6b35b3;
-	margin-bottom: 20px;
+body{
+	background-color: #393939
 }
 
-h1, footer p, article p, aside p{
-	text-align: center;
-	color: #fff;
-	font-size: 24px;
-	font-family: arial;
-	text-transform: uppercase;
-	font-weight: normal;
+a {
+        color: #DE5D47;
+        position: relative;
+        display: inline-block;
+        text-align: center; 
+        
+      }
 
-}
+      a:hover:after {
+        content: 'VRAU';
+        position: absolute;
+        width: 60px;
+        left: 50%;
+        margin-left: -30px;
+        top: 100%;
+        height: 100%; /* ???? */
+        overflow: auto;
+        word-break: break-all;
+        text-align: center;
+      }
 
-footer{
-	width: 800px;
-	height: 60px;
-	padding: 20px 0;
-	background: #C51A09;
-	clear: both;
+      a:hover, a:hover:after {
+        z-index: 99999;
+        -webkit-animation-name: blinker;
+        -webkit-animation-duration: 300ms;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    
+        -moz-animation-name: blinker;
+        -moz-animation-duration: 300ms;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+    
+        animation-name: blinker;
+        animation-duration: 300ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
 
-}
+      a:visited {
+        color: rgb(255, 0, 180);
+      }
 
-article{
-	width: 580px;
-	height: 300px;
-	background: rgba(0,0,0,.5);
-	float: left;
-	position: relative;
-	
-}
-	
+      @-moz-keyframes blinker {  
+        0% { 
+          background-color: #000;
+        }
+        50% {
+          background-color: #fff;
+        }
+        100% { 
+          background-color: #000;
+        }
+      }
+      
+      @-webkit-keyframes blinker {  
+        0% { 
+          background-color: #000;
+        }
+        50% {
+          background-color: #fff;
+        }
+        100% { 
+          background-color: #000;
+        }
+      }
+      
+      @keyframes blinker {  
+        0% { 
+          background-color: #000;
+        }
+        50% {
+          background-color: #fff;
+        }
+        100% { 
+          background-color: #000;
+        }
+      }
 
-aside{
-	width: 200px;
-	height: 300px;
-	background: #ccc;
-	float: left;
-	margin-left: 20px;
-}
-
-.container{
-	width: 800px;
-	margin: 0 auto;
-}
-
-.conteudo{
-	width: 800px; 
-	overflow: auto;
-	margin-bottom: 20px;
-	position: relative;
-}
+      @-moz-keyframes party-hard {  
+        0% {
+          width: 0px;
+        }
+        25% {
+          width: 30px;
+        }
+        50% {
+          width: 0px;
+        }
+        75% {
+          width: 60px;
+        }
+        90% {
+          width: 60px; 
+        }
+        100% {
+          width: 0px; 
+        }
+      }
+      
+      @-webkit-keyframes party-hard {  
+        0% {
+          width: 0px;
+        }
+        25% {
+          width: 30px;
+        }
+        50% {
+          width: 0px;
+        }
+        75% {
+          width: 60px;
+        }
+        90% {
+          width: 60px; 
+        }
+        100% {
+          width: 0px; 
+        }
+      }
+      
+      @keyframes party-hard {  
+        0% {
+          width: 0px;
+        }
+        25% {
+          width: 30px;
+        }
+        50% {
+          width: 0px;
+        }
+        75% {
+          width: 60px;
+        }
+        90% {
+          width: 60px; 
+        }
+        100% {
+          width: 0px; 
+        }
+      }
