@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Pedro</title>
+		<title>Pedro Degli</title>
 		<style>
 				header{
 		width: 800px;
