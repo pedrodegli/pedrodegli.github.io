@@ -1,6 +1,7 @@
 /*  Estilos gerais */
 body{
 	font-family: 'Roboto', sans-serif;
+    height: 8000px;
 }
 
 p{
@@ -30,10 +31,10 @@ p{
 /* Header*/
 
 .header{
-	position: fixed;
+	position:absolute;
 	top: 0;
 	width: 100%;
-	background: #fff;
+	background-color: #fff;
 	padding: 15px 0;
 }
 
@@ -73,7 +74,6 @@ padding: 10px 0;
 	text-align: center;
 	padding-top: 80px;
 }
-
 
 
 
