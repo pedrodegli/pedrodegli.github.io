@@ -1,3 +1,0 @@
-
-
-#https://pedrodegli.github.io/
