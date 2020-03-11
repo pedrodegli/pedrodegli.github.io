@@ -55,12 +55,12 @@ a {
 }
 
 a:hover {
-    color: #f44647;
+    color: #FF3469;
 }
 
 .section a {
     font-weight: 700;
-    color: #f44647;
+    color: #FF3469;
 }
 
 .section a:hover {
@@ -171,7 +171,7 @@ img.block-right {
     left: 0;
     top: 0;
     position: absolute;
-    color: #f44647;
+    color: #FF3469;
 }
 
 .nav-count .pagination-sep {
@@ -189,7 +189,7 @@ img.block-right {
 }
 
 .nav-list li.current a {
-    color: #f44647;
+    color: #FF3469;
 }
 
 .nav-list li ul {
@@ -244,7 +244,7 @@ img.block-right {
 
 .nav-container .site-title:hover:before {
     width: 0;
-    background-color: #f44647;
+    background-color: #FF3469;
 }
 
 .nav-btn {
@@ -362,7 +362,7 @@ img.block-right {
 
 #home .entry-title {
     position: absolute;
-    color: #f44647;
+    color: #FF3469;
     font-weight: 800;
     font-size: 140px;
     line-height: 143px;
@@ -418,7 +418,7 @@ img.block-right {
 }
 
 .serv-link-cover {
-    background-color: #f44647;
+    background-color: #FF3469;
     display: flex;
     align-items: center;
     padding: 50px 70px;
@@ -500,7 +500,7 @@ img.block-right {
 }
 
 .about-info {
-    background-color: #f44647;
+    background-color: #FF3469;
     color: #fff;
     width: 330px;
     padding: 50px 30px 50px 70px;
@@ -679,7 +679,7 @@ img.block-right {
     width: 70px;
     height: 70px;
     display: inline-block;
-    background-color: #f44647;
+    background-color: #FF3469;
     margin-bottom: 20px;
     background-size: 70px;
     transition: all 0.3s ease;
@@ -731,7 +731,7 @@ img.block-right {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #f44647;
+    background-color: #FF3469;
 }
 
 
@@ -853,7 +853,7 @@ div.pp_default .pp_description {
 }
 
 .home-blog-list li a:hover {
-    color: #f44647;
+    color: #FF3469;
 }
 
 .home-blog-list li .blog-list-info {
@@ -866,7 +866,7 @@ div.pp_default .pp_description {
 }
 
 .home-blog-list li .blog-list-info .category {
-    color: #f44647;
+    color: #FF3469;
     margin-top: 6px;
 }
 
@@ -876,7 +876,7 @@ div.pp_default .pp_description {
 ====================================== */
 
 .skills-history {
-    background-color: #f44647;
+    background-color: #FF3469;
     color: #fff;
     margin-top: 41px;
     padding: 63px 60px 62px 94px;
@@ -964,7 +964,7 @@ div.pp_default .pp_description {
 .skills-progress .skill-fill {
     width: 10%;
     height: 10px;
-    background-color: #f44647;
+    background-color: #FF3469;
     transition: width .7s;
 }
 
@@ -1104,7 +1104,7 @@ p.contact-submit-holder {
 }
 
 .single-blog .meta li a {
-    color: #f44647;
+    color: #FF3469;
 }
 
 .single-blog .meta li a:hover {
@@ -1134,7 +1134,7 @@ p.contact-submit-holder {
 
 .single-blog .content-670 blockquote {
     float: right;
-    background: #f44647;
+    background: #FF3469;
     color: #fff;
     font-weight: 700;
     font-size: 18px;
@@ -1178,7 +1178,7 @@ p.contact-submit-holder {
 }
 
 .soc-list li a:hover {
-    color: #f44647;
+    color: #FF3469;
 }
 
 
